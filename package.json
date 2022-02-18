@@ -1,13 +1,13 @@
 {
   "name": "rand-colors",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/HaykSim1/random-color.git"
   },
-  "keywords": [],
+  "keywords": ["random", "random color", "color converter", "rgb to hex", "hex to rgb"],
   "author": "",
   "license": "ISC",
   "bugs": {
